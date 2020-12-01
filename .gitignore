@@ -1,3 +1,7 @@
+# Exclude editor plugins folder
+[Aa]ssets/PluginsForEditor/
+[Aa]ssets/PluginsForEditor.meta
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -9,9 +13,13 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Pp]ackages/.*
+
+# Default ignored files
+/.idea/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+# !/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -58,3 +66,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Custom
+Assets/FR2_Cache.*

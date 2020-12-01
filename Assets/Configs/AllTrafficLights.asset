@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfaa139cb01142838895b1d512b98900, type: 3}
+  m_Name: AllTrafficLights
+  m_EditorClassIdentifier: 
+  availableTrafficLights:
+  - config: {fileID: 11400000, guid: 01a812c9743c44cc691170451ae5407f, type: 2}
+    view: {fileID: 3641479494242073585, guid: a3de06022e5464c88920d401e071908d, type: 3}
+  - config: {fileID: 11400000, guid: 087348dbbd10d4c91a0065dee6a87259, type: 2}
+    view: {fileID: 3641479494242073585, guid: 5cf26d846dae144dc9e9734716e1d1d1, type: 3}
+  - config: {fileID: 11400000, guid: f2348aec73beb443aa7f75d64728a8ef, type: 2}
+    view: {fileID: 3641479494242073585, guid: 5494a7da857db43e5b23bd53ad4d7637, type: 3}
